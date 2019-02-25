@@ -46,3 +46,13 @@
 
    return true;
  }
+ 
+ int get_lenght(unsigned long n){
+   int lenght=0;
+
+   while (n>1) {
+     n/=10;
+     lenght++;
+   }
+   return lenght;
+ }
